@@ -1,0 +1,19 @@
+﻿## -*- coding: utf-8 -*-
+<%inherit file="base.html" />
+<%block name="container">
+<div class="container">
+    <form action="/eruption/add/" method="post">
+        <div class="form-group">
+            <label for="libelle">Libellé :</label>
+            <input type="text" class="form-control" id="libelle" name="libelle">
+            <label for="duree">Durée :</label>
+            <input type="text" class="form-control" id="duree" name="duree">
+            <label for="date">Date :</label>
+            <input type="text" class="form-control" id="date" name="date">
+            <label for="intensite">Intensité :</label>
+            <input type="text" class="form-control" id="intensite" name="intensite">
+        </div>
+        <input type="submit" class="btn btn-success">
+    </form>
+</div>
+</%block>

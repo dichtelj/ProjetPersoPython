@@ -1,0 +1,6 @@
+#!/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/bin/python3
+
+import cherrypy.daemon
+
+if __name__ == '__main__':
+    cherrypy.daemon.run()

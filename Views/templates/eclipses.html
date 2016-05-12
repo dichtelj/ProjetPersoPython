@@ -1,0 +1,37 @@
+﻿## -*- coding: utf-8 -*-
+<%inherit file="base.html" />
+<%block name="container">
+<div class="container">
+    <div class="row">
+        <div class="panel-heading"></div>
+        <div class="col-md-6">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th>Identifiant</th>
+                <th>Libellé</th>
+                <th>Date de début</th>
+                <th>Date de fin</th>
+                <th>Pays</th>
+                <th>Département</th>
+				<th>Type</th>
+              </tr>
+            </thead>
+            <tbody>
+            %for eclipse in eclipses:
+              <tr>
+                <td rowspan="2">${eclipse.id}</td>
+                <td>${eclipse.libelle}</td>
+                <td>${eclipse.dateDeb}</td>
+                <td>${eclipse.dateFin}</td>
+                <td>${eclipse.pays}</td>	
+                <td>${eclipse.departement}</td>	
+                <td>${eclipse.type}</td>				
+              </tr>
+            %endfor
+            </tbody>
+          </table>
+        </div>
+    </div>
+</div>
+</%block>
