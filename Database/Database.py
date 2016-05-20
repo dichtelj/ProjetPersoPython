@@ -57,7 +57,7 @@ class Database:
     def update (self):
         self.session.commit()
 
-    def retrieve(self,type, column, value):
+    def retrieve(self,type, column=None, value=None):
         if value != None:
             obj = self.session.query(type).filter(column == value).first()
             if obj != None:

@@ -17,8 +17,7 @@ class Eclipse(Base):
     type = Column(String, nullable=True)
     
 
-    def __init__(self,libelle,dateDeb,dateFin,pays,departement,type,id):
-        self.id = id
+    def __init__(self,libelle,dateDeb,dateFin,pays,departement,type):
         self.libelle = libelle
         self.dateDeb = dateDeb
         self.dateFin = dateFin
@@ -27,7 +26,7 @@ class Eclipse(Base):
         self.type = type
 
     def __str__(self):
-        return ("id : {};\nlibelle : {};\ndate début : {};\ndate fin : {};\npays : {};\ndepartement : {};\ntype : {};\n".format(self.id, self.libelle,self.dateDeb,self.dateFin,self.pays,self.departement,self.type))
+        return ("libelle : {};\ndate début : {};\ndate fin : {};\npays : {};\ndepartement : {};\ntype : {};\n".format(self.id, self.libelle,self.dateDeb,self.dateFin,self.pays,self.departement,self.type))
 
 class Eruption(Base):
     __tablename__ = "eruption"
@@ -38,15 +37,14 @@ class Eruption(Base):
     intensite = Column(Float, nullable=True)
     
 
-    def __init__(self,libelle,duree,date,intensite,id):
-        self.id = id
+    def __init__(self,libelle,duree,date,intensite):
         self.libelle = libelle
         self.duree = duree
         self.date = date
         self.intensite = intensite
 
     def __str__(self):
-        return ("id : {};\nlibelle : {};\ndurée : {};\ndate : {};\nintensité : {}\n".format(self.id, self.libelle,self.duree,self.date,self.intensite))
+        return ("libelle : {};\ndurée : {};\ndate : {};\nintensité : {}\n".format( self.libelle,self.duree,self.date,self.intensite))
 
 class Evenement(Base):
     __tablename__ = "evenement"
@@ -58,8 +56,7 @@ class Evenement(Base):
     departement = Column(String, nullable=True)
     
 
-    def __init__(self,libelle,dateDeb,dateFin,pays,departement,id):
-        self.id = id
+    def __init__(self,libelle,dateDeb,dateFin,pays,departement):
         self.libelle = libelle
         self.dateDeb = dateDeb
         self.dateFin = dateFin
@@ -68,6 +65,6 @@ class Evenement(Base):
         
 
     def __str__(self):
-        return ("id : {};\nlibelle : {};\ndate début : {};\ndate fin : {};\npays : {};\ndepartement : {};\n".format(self.id, self.libelle,self.dateDeb,self.dateFin,self.pays,self.departement))
+        return ("libelle : {};\ndate début : {};\ndate fin : {};\npays : {};\ndepartement : {};\n".format(self.libelle,self.dateDeb,self.dateFin,self.pays,self.departement))
 
 Base.metadata.create_all(engine)

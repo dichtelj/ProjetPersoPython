@@ -1,25 +1,17 @@
-## -*- coding: utf-8 -*-
+﻿## -*- coding: utf-8 -*-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Projet Personnel : site d'astronomie</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="/Views/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../js/ie-emulation-modes-warning.js"></script>
+    <link href="/Views/css/starter-template.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -39,13 +31,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Site d'astronomie</a>
+          <a class="navbar-brand" href="/eclipses/">Site d'astronomie</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/eclipses">Eclipses</a></li>
-            <li><a href="/eruptions">Eruptions</a></li>
-            <li><a href="/evenements">Autres évènements</a></li>
+            <li class="active"><a href="/eclipses/">Eclipses</a></li>
+            <li><a href="/eruptions/">Eruptions</a></li>
+            <li><a href="/evenements/">Autres évènements</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 				   aria-expanded="false">Création<span class="caret"></span></a>
@@ -59,12 +51,13 @@
         </div>
       </div>
     </nav>
-
+	<%block name="container">
+	</%block>	
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="/Views/js/bootstrap.min.js"></script>
   </body>
 </html>

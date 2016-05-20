@@ -1,3 +1,4 @@
+# -*-coding:UTF-8 -*
 import routes
 import cherrypy
 import inspect, os
@@ -16,11 +17,13 @@ print(_curdir)
 myTemplatesDir = os.path.join(_curdir, 'Views/templates')
 myModulesDir = os.path.join(_curdir, 'Views/modules')
 mylookup = TemplateLookup(directories=[myTemplatesDir], module_directory=myModulesDir,
-                          output_encoding='utf-8',
+                          output_encoding='utf-8',input_encoding='utf-8',
                           encoding_errors='replace')
 # ------------------------------------------------------------
 # Templates HTML
 # ------------------------------------------------------------
+
+_index = mylookup.get_template("base.html")
 _eruptions = mylookup.get_template("eruptions.html")
 _eclipses = mylookup.get_template("eclipses.html")
 _evenements = mylookup.get_template("evenements.html")
@@ -34,21 +37,27 @@ class App:
     """
     Application
     """
+    @cherrypy.expose
+    def index(self):
+        db = Database()
+        return _index.render_unicode()        
 
     def eruptions(self):
         db = Database()
         eruptions = db.retrieve(Eruption)
-        return _collection.render_unicode(eruptions=eruptions)
+        return _eruptions.render_unicode(eruptions=eruptions)
 
     def eclipses(self):
         db = Database()
+        print("toto")
         eclipses = db.retrieve(Eclipse)
-        return _collection.render_unicode(eclipses=eclipses)
+        print(eclipses)
+        return _eclipses.render_unicode(eclipses=eclipses)
 
     def evenements(self):
         db = Database()
         evenements = db.retrieve(Evenement)
-        return _collection.render_unicode(evenements=evenements)
+        return _evenements.render_unicode(evenements=evenements)
 
 class EruptionController:
 
@@ -69,9 +78,7 @@ class EruptionController:
     @cherrypy.expose
     def eruptions_create(self):
         db = Database()
-        return _eruptions_create.render_unicode(
-            eruptions=db.retrieve(Eruption)
-        )
+        return _eruptions_create.render_unicode()
 
 class EclipseController:
 
@@ -92,9 +99,7 @@ class EclipseController:
     @cherrypy.expose
     def eclipses_create(self):
         db = Database()
-        return _eclipses_create.render_unicode(
-            eclipses=db.retrieve(Eclipse)
-        )
+        return _eclipses_create.render_unicode()
     
 class EvenementController:
 
@@ -107,17 +112,15 @@ class EvenementController:
 
     @cherrypy.expose
     def evenements_add(self, libelle, dateDeb, dateFin, pays, departement, type):
-        evenement = Eclipse(libelle, dateDeb, dateFin, pays, departement, type)
+        evenement = Evenement(libelle, dateDeb, dateFin, pays, departement, type)
         db = Database()
-        db.create(evenement, Eclipse)
+        db.create(evenement, Evenement)
         raise cherrypy.HTTPRedirect('/evenements/')
 
     @cherrypy.expose
-    def eclipses_create(self):
+    def evenements_create(self):
         db = Database()
-        return _eclipses_create.render_unicode(
-            eclipses=db.retrieve(Eclipse)
-        )
+        return _evenements_create.render_unicode()
 
 if __name__ == '__main__':
     global_conf = {
@@ -132,20 +135,20 @@ if __name__ == '__main__':
     cherrypy.config.update(global_conf)
     app = App()
     d = cherrypy.dispatch.RoutesDispatcher()
-    d.connect('default_route', '/', controller=app, action='index')
+    d.connect('default_route', '/eclipses/', controller=app, action='index')
     
     d.connect('eruptions', '/eruptions/', controller=app, action='eruptions')
     d.connect('eclipses', '/eclipses/', controller=app, action='eclipses')
     d.connect('evenements', '/evenements/', controller=app, action='evenements')
     
-    d.connect('eruptions_create', '/eruptions/new', controller=MangaController, action="eruptions_create")
-    d.connect('eruptions_add', '/eruptions/add/', controller=MangaController, action="eruptions_add")
+    d.connect('eruptions_create', '/eruptions/new/', controller=EruptionController, action="eruptions_create")
+    d.connect('eruptions_add', '/eruptions/add/', controller=EruptionController, action="eruptions_add")
 
-    d.connect('eclipses_create', '/eclipses/new', controller=MangaController, action="eclipses_create")
-    d.connect('eclipses_add', '/eclipses/add/', controller=MangaController, action="eclipses_add")
+    d.connect('eclipses_create', '/eclipses/new/', controller=EclipseController, action="eclipses_create")
+    d.connect('eclipses_add', '/eclipses/add/', controller=EclipseController, action="eclipses_add")
 
-    d.connect('evenements_create', '/evenements/new', controller=MangaController, action="evenements_create")
-    d.connect('evenements_add', '/evenements/add/', controller=MangaController, action="evenements_add")
+    d.connect('evenements_create', '/evenements/new/', controller=EvenementController, action="evenements_create")
+    d.connect('evenements_add', '/evenements/add/', controller=EvenementController, action="evenements_add")
 
     conf_appli = {
         '/': {'request.dispatch': d},

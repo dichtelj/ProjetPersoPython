@@ -1,0 +1,971 @@
+[12/May/2016:13:30:52] ENGINE Listening for SIGTERM.
+[12/May/2016:13:30:52] ENGINE Listening for SIGHUP.
+[12/May/2016:13:30:52] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:30:52] ENGINE Bus STARTING
+[12/May/2016:13:30:52] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:30:52] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:30:52] ENGINE Bus STARTED
+[12/May/2016:13:30:56] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:13:30:56] ENGINE Bus STOPPING
+[12/May/2016:13:30:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:13:30:56] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:30:56] ENGINE Bus STOPPED
+[12/May/2016:13:30:56] ENGINE Bus EXITING
+[12/May/2016:13:30:56] ENGINE Bus EXITED
+[12/May/2016:13:30:56] ENGINE Waiting for child threads to terminate...
+[12/May/2016:13:31:03] ENGINE Listening for SIGHUP.
+[12/May/2016:13:31:03] ENGINE Listening for SIGTERM.
+[12/May/2016:13:31:03] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:31:03] ENGINE Bus STARTING
+[12/May/2016:13:31:03] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:31:03] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:31:03] ENGINE Bus STARTED
+[12/May/2016:13:31:56] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:13:31:56] ENGINE Bus STOPPING
+[12/May/2016:13:31:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:13:31:56] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:31:56] ENGINE Bus STOPPED
+[12/May/2016:13:31:56] ENGINE Bus EXITING
+[12/May/2016:13:31:56] ENGINE Bus EXITED
+[12/May/2016:13:31:56] ENGINE Waiting for child threads to terminate...
+[12/May/2016:13:32:07] ENGINE Listening for SIGTERM.
+[12/May/2016:13:32:07] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:32:07] ENGINE Listening for SIGHUP.
+[12/May/2016:13:32:07] ENGINE Bus STARTING
+[12/May/2016:13:32:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:32:07] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:32:07] ENGINE Bus STARTED
+[12/May/2016:13:32:29] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:13:32:29] ENGINE Bus STOPPING
+[12/May/2016:13:32:29] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:13:32:29] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:32:29] ENGINE Bus STOPPED
+[12/May/2016:13:32:29] ENGINE Bus EXITING
+[12/May/2016:13:32:29] ENGINE Bus EXITED
+[12/May/2016:13:32:29] ENGINE Waiting for child threads to terminate...
+[12/May/2016:13:33:08] ENGINE Listening for SIGTERM.
+[12/May/2016:13:33:08] ENGINE Listening for SIGHUP.
+[12/May/2016:13:33:08] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:33:08] ENGINE Bus STARTING
+[12/May/2016:13:33:08] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:33:08] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:33:08] ENGINE Bus STARTED
+[12/May/2016:13:34:15] ENGINE Listening for SIGHUP.
+[12/May/2016:13:34:15] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:34:15] ENGINE Listening for SIGTERM.
+[12/May/2016:13:34:15] ENGINE Bus STARTING
+[12/May/2016:13:34:15] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:34:16] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/process/servers.py", line 205, in _start_http_thread
+    self.httpserver.start()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/wsgiserver/wsgiserver3.py", line 1671, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('127.0.0.1', 8080): [Errno 98] Address already in use)
+
+[12/May/2016:13:34:16] ENGINE Bus STOPPING
+[12/May/2016:13:34:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) already shut down
+[12/May/2016:13:34:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:34:16] ENGINE Bus STOPPED
+[12/May/2016:13:34:16] ENGINE Bus EXITING
+[12/May/2016:13:34:16] ENGINE Bus EXITED
+[12/May/2016:13:34:21] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:34:21] ENGINE Listening for SIGTERM.
+[12/May/2016:13:34:21] ENGINE Listening for SIGHUP.
+[12/May/2016:13:34:21] ENGINE Bus STARTING
+[12/May/2016:13:34:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:34:21] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/process/servers.py", line 205, in _start_http_thread
+    self.httpserver.start()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/wsgiserver/wsgiserver3.py", line 1671, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('127.0.0.1', 8080): [Errno 98] Address already in use)
+
+[12/May/2016:13:34:21] ENGINE Bus STOPPING
+[12/May/2016:13:34:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) already shut down
+[12/May/2016:13:34:21] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:34:21] ENGINE Bus STOPPED
+[12/May/2016:13:34:21] ENGINE Bus EXITING
+[12/May/2016:13:34:21] ENGINE Bus EXITED
+[12/May/2016:13:34:56] ENGINE Listening for SIGHUP.
+[12/May/2016:13:34:56] ENGINE Listening for SIGTERM.
+[12/May/2016:13:34:56] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:34:56] ENGINE Bus STARTING
+[12/May/2016:13:34:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:34:56] ENGINE Error in HTTP server: shutting down
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/process/servers.py", line 205, in _start_http_thread
+    self.httpserver.start()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/wsgiserver/wsgiserver3.py", line 1671, in start
+    raise socket.error(msg)
+OSError: No socket could be created -- (('127.0.0.1', 8080): [Errno 98] Address already in use)
+
+[12/May/2016:13:34:56] ENGINE Bus STOPPING
+[12/May/2016:13:34:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) already shut down
+[12/May/2016:13:34:56] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:34:56] ENGINE Bus STOPPED
+[12/May/2016:13:34:56] ENGINE Bus EXITING
+[12/May/2016:13:34:56] ENGINE Bus EXITED
+[12/May/2016:13:35:04] ENGINE Caught signal SIGHUP.
+[12/May/2016:13:36:33] ENGINE Listening for SIGTERM.
+[12/May/2016:13:36:33] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:36:33] ENGINE Listening for SIGHUP.
+[12/May/2016:13:36:33] ENGINE Bus STARTING
+[12/May/2016:13:36:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:36:33] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:36:33] ENGINE Bus STARTED
+[12/May/2016:13:37:28] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:13:37:28] ENGINE Bus STOPPING
+[12/May/2016:13:37:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:13:37:28] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:37:28] ENGINE Bus STOPPED
+[12/May/2016:13:37:28] ENGINE Bus EXITING
+[12/May/2016:13:37:28] ENGINE Bus EXITED
+[12/May/2016:13:37:28] ENGINE Waiting for child threads to terminate...
+[12/May/2016:13:38:18] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:38:18] ENGINE Listening for SIGTERM.
+[12/May/2016:13:38:18] ENGINE Listening for SIGHUP.
+[12/May/2016:13:38:18] ENGINE Bus STARTING
+[12/May/2016:13:38:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:38:18] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:38:18] ENGINE Bus STARTED
+[12/May/2016:13:38:20] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:13:38:20] ENGINE Bus STOPPING
+[12/May/2016:13:38:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:13:38:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:38:20] ENGINE Bus STOPPED
+[12/May/2016:13:38:20] ENGINE Bus EXITING
+[12/May/2016:13:38:20] ENGINE Bus EXITED
+[12/May/2016:13:38:20] ENGINE Waiting for child threads to terminate...
+[12/May/2016:13:47:05] ENGINE Listening for SIGHUP.
+[12/May/2016:13:47:05] ENGINE Listening for SIGTERM.
+[12/May/2016:13:47:05] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:47:05] ENGINE Bus STARTING
+[12/May/2016:13:47:05] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:47:05] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:47:05] ENGINE Bus STARTED
+[12/May/2016:13:59:13] ENGINE Caught signal SIGTERM.
+[12/May/2016:13:59:13] ENGINE Bus STOPPING
+[12/May/2016:13:59:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:13:59:13] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:59:13] ENGINE Bus STOPPED
+[12/May/2016:13:59:13] ENGINE Bus EXITING
+[12/May/2016:13:59:13] ENGINE Bus EXITED
+[12/May/2016:13:59:13] ENGINE Waiting for child threads to terminate...
+[12/May/2016:13:59:24] ENGINE Listening for SIGUSR1.
+[12/May/2016:13:59:24] ENGINE Listening for SIGTERM.
+[12/May/2016:13:59:24] ENGINE Listening for SIGHUP.
+[12/May/2016:13:59:24] ENGINE Bus STARTING
+[12/May/2016:13:59:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:13:59:24] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:13:59:24] ENGINE Bus STARTED
+[12/May/2016:13:59:34] ENGINE Caught signal SIGTERM.
+[12/May/2016:13:59:34] ENGINE Bus STOPPING
+[12/May/2016:13:59:34] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:13:59:34] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:13:59:34] ENGINE Bus STOPPED
+[12/May/2016:13:59:34] ENGINE Bus EXITING
+[12/May/2016:13:59:34] ENGINE Bus EXITED
+[12/May/2016:13:59:34] ENGINE Waiting for child threads to terminate...
+[12/May/2016:14:33:32] ENGINE Listening for SIGHUP.
+[12/May/2016:14:33:32] ENGINE Listening for SIGUSR1.
+[12/May/2016:14:33:32] ENGINE Listening for SIGTERM.
+[12/May/2016:14:33:32] ENGINE Bus STARTING
+[12/May/2016:14:33:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:14:33:32] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:14:33:32] ENGINE Bus STARTED
+[12/May/2016:14:35:41] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:14:35:41] ENGINE Bus STOPPING
+[12/May/2016:14:35:46] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:14:35:46] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:14:35:46] ENGINE Bus STOPPED
+[12/May/2016:14:35:46] ENGINE Bus EXITING
+[12/May/2016:14:35:46] ENGINE Bus EXITED
+[12/May/2016:14:35:46] ENGINE Waiting for child threads to terminate...
+[12/May/2016:14:36:19] ENGINE Listening for SIGHUP.
+[12/May/2016:14:36:19] ENGINE Listening for SIGTERM.
+[12/May/2016:14:36:19] ENGINE Listening for SIGUSR1.
+[12/May/2016:14:36:19] ENGINE Bus STARTING
+[12/May/2016:14:36:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:14:36:19] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:14:36:19] ENGINE Bus STARTED
+[12/May/2016:14:41:31] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:14:41:31] ENGINE Bus STOPPING
+[12/May/2016:14:41:31] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:14:41:31] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:14:41:31] ENGINE Bus STOPPED
+[12/May/2016:14:41:31] ENGINE Bus EXITING
+[12/May/2016:14:41:31] ENGINE Bus EXITED
+[12/May/2016:14:41:31] ENGINE Waiting for child threads to terminate...
+[12/May/2016:14:48:25] ENGINE Listening for SIGUSR1.
+[12/May/2016:14:48:25] ENGINE Listening for SIGHUP.
+[12/May/2016:14:48:25] ENGINE Listening for SIGTERM.
+[12/May/2016:14:48:25] ENGINE Bus STARTING
+[12/May/2016:14:48:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:14:48:25] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:14:48:25] ENGINE Bus STARTED
+[12/May/2016:14:48:49] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:14:48:49] ENGINE Bus STOPPING
+[12/May/2016:14:48:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:14:48:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:14:48:49] ENGINE Bus STOPPED
+[12/May/2016:14:48:49] ENGINE Bus EXITING
+[12/May/2016:14:48:49] ENGINE Bus EXITED
+[12/May/2016:14:48:49] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:27:39] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:27:39] ENGINE Listening for SIGHUP.
+[12/May/2016:15:27:39] ENGINE Listening for SIGTERM.
+[12/May/2016:15:27:39] ENGINE Bus STARTING
+[12/May/2016:15:27:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:27:39] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:27:39] ENGINE Bus STARTED
+[12/May/2016:15:28:18] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:28:18] ENGINE Bus STOPPING
+[12/May/2016:15:28:18] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:28:18] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:28:18] ENGINE Bus STOPPED
+[12/May/2016:15:28:18] ENGINE Bus EXITING
+[12/May/2016:15:28:18] ENGINE Bus EXITED
+[12/May/2016:15:28:18] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:28:33] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:28:33] ENGINE Listening for SIGTERM.
+[12/May/2016:15:28:33] ENGINE Listening for SIGHUP.
+[12/May/2016:15:28:33] ENGINE Bus STARTING
+[12/May/2016:15:28:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:28:33] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:28:33] ENGINE Bus STARTED
+[12/May/2016:15:28:49] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:28:49] ENGINE Bus STOPPING
+[12/May/2016:15:28:49] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:28:49] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:28:49] ENGINE Bus STOPPED
+[12/May/2016:15:28:49] ENGINE Bus EXITING
+[12/May/2016:15:28:49] ENGINE Bus EXITED
+[12/May/2016:15:28:49] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:29:48] ENGINE Listening for SIGTERM.
+[12/May/2016:15:29:48] ENGINE Listening for SIGHUP.
+[12/May/2016:15:29:48] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:29:48] ENGINE Bus STARTING
+[12/May/2016:15:29:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:29:48] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:29:48] ENGINE Bus STARTED
+[12/May/2016:15:29:55] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:29:55] ENGINE Bus STOPPING
+[12/May/2016:15:30:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:30:00] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:30:00] ENGINE Bus STOPPED
+[12/May/2016:15:30:00] ENGINE Bus EXITING
+[12/May/2016:15:30:00] ENGINE Bus EXITED
+[12/May/2016:15:30:00] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:30:00] ENGINE Waiting for thread CP Server Thread-4.
+[12/May/2016:15:32:38] ENGINE Listening for SIGHUP.
+[12/May/2016:15:32:38] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:32:38] ENGINE Listening for SIGTERM.
+[12/May/2016:15:32:38] ENGINE Bus STARTING
+[12/May/2016:15:32:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:32:38] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:32:38] ENGINE Bus STARTED
+[12/May/2016:15:33:25] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 48, in eclipses
+    eclipses = db.retrieve(Eclipse)
+TypeError: retrieve() missing 2 required positional arguments: 'column' and 'value'
+[12/May/2016:15:40:30] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:40:30] ENGINE Bus STOPPING
+[12/May/2016:15:40:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:40:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:40:35] ENGINE Bus STOPPED
+[12/May/2016:15:40:35] ENGINE Bus EXITING
+[12/May/2016:15:40:35] ENGINE Bus EXITED
+[12/May/2016:15:40:35] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:40:39] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:40:39] ENGINE Listening for SIGTERM.
+[12/May/2016:15:40:39] ENGINE Listening for SIGHUP.
+[12/May/2016:15:40:39] ENGINE Bus STARTING
+[12/May/2016:15:40:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:40:39] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:40:39] ENGINE Bus STARTED
+[12/May/2016:15:40:51] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 52, in eclipses
+    eclipses = db.retrieve(Eclipse)
+TypeError: retrieve() missing 2 required positional arguments: 'column' and 'value'
+[12/May/2016:15:42:36] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:42:36] ENGINE Bus STOPPING
+[12/May/2016:15:42:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:42:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:42:36] ENGINE Bus STOPPED
+[12/May/2016:15:42:36] ENGINE Bus EXITING
+[12/May/2016:15:42:36] ENGINE Bus EXITED
+[12/May/2016:15:42:36] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:42:39] ENGINE Listening for SIGTERM.
+[12/May/2016:15:42:39] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:42:39] ENGINE Listening for SIGHUP.
+[12/May/2016:15:42:39] ENGINE Bus STARTING
+[12/May/2016:15:42:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:42:39] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:42:39] ENGINE Bus STARTED
+[12/May/2016:15:42:41] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 52, in eclipses
+    eclipses = db.retrieve(Eclipse)
+TypeError: retrieve() missing 2 required positional arguments: 'column' and 'value'
+[12/May/2016:15:43:43] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:43:43] ENGINE Bus STOPPING
+[12/May/2016:15:43:43] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:43:43] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:43:43] ENGINE Bus STOPPED
+[12/May/2016:15:43:43] ENGINE Bus EXITING
+[12/May/2016:15:43:43] ENGINE Bus EXITED
+[12/May/2016:15:43:43] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:44:28] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:44:28] ENGINE Listening for SIGHUP.
+[12/May/2016:15:44:28] ENGINE Listening for SIGTERM.
+[12/May/2016:15:44:28] ENGINE Bus STARTING
+[12/May/2016:15:44:28] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:44:28] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:44:28] ENGINE Bus STARTED
+[12/May/2016:15:45:51] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:45:51] ENGINE Bus STOPPING
+[12/May/2016:15:45:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:45:51] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:45:51] ENGINE Bus STOPPED
+[12/May/2016:15:45:51] ENGINE Bus EXITING
+[12/May/2016:15:45:51] ENGINE Bus EXITED
+[12/May/2016:15:45:51] ENGINE Waiting for child threads to terminate...
+[12/May/2016:15:45:54] ENGINE Listening for SIGUSR1.
+[12/May/2016:15:45:54] ENGINE Listening for SIGTERM.
+[12/May/2016:15:45:54] ENGINE Listening for SIGHUP.
+[12/May/2016:15:45:54] ENGINE Bus STARTING
+[12/May/2016:15:45:54] ENGINE Started monitor thread '_TimeoutMonitor'.
+[12/May/2016:15:45:54] ENGINE Serving on http://127.0.0.1:8080
+[12/May/2016:15:45:54] ENGINE Bus STARTED
+[12/May/2016:15:56:16] ENGINE Keyboard Interrupt: shutting down bus
+[12/May/2016:15:56:16] ENGINE Bus STOPPING
+[12/May/2016:15:56:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[12/May/2016:15:56:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[12/May/2016:15:56:16] ENGINE Bus STOPPED
+[12/May/2016:15:56:16] ENGINE Bus EXITING
+[12/May/2016:15:56:16] ENGINE Bus EXITED
+[12/May/2016:15:56:16] ENGINE Waiting for child threads to terminate...
+[19/May/2016:08:52:31] ENGINE Listening for SIGTERM.
+[19/May/2016:08:52:31] ENGINE Listening for SIGUSR1.
+[19/May/2016:08:52:31] ENGINE Listening for SIGHUP.
+[19/May/2016:08:52:31] ENGINE Bus STARTING
+[19/May/2016:08:52:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:08:52:31] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:08:52:31] ENGINE Bus STARTED
+[19/May/2016:08:53:36] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:08:53:36] ENGINE Bus STOPPING
+[19/May/2016:08:53:36] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:08:53:36] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:08:53:36] ENGINE Bus STOPPED
+[19/May/2016:08:53:36] ENGINE Bus EXITING
+[19/May/2016:08:53:36] ENGINE Bus EXITED
+[19/May/2016:08:53:36] ENGINE Waiting for child threads to terminate...
+[19/May/2016:10:34:27] ENGINE Listening for SIGHUP.
+[19/May/2016:10:34:27] ENGINE Listening for SIGTERM.
+[19/May/2016:10:34:27] ENGINE Listening for SIGUSR1.
+[19/May/2016:10:34:27] ENGINE Bus STARTING
+[19/May/2016:10:34:27] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:10:34:27] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:10:34:27] ENGINE Bus STARTED
+[19/May/2016:10:35:16] ENGINE Caught signal SIGTERM.
+[19/May/2016:10:35:16] ENGINE Bus STOPPING
+[19/May/2016:10:35:16] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:10:35:16] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:10:35:16] ENGINE Bus STOPPED
+[19/May/2016:10:35:16] ENGINE Bus EXITING
+[19/May/2016:10:35:16] ENGINE Bus EXITED
+[19/May/2016:10:35:16] ENGINE Waiting for child threads to terminate...
+[19/May/2016:10:39:17] ENGINE Listening for SIGUSR1.
+[19/May/2016:10:39:17] ENGINE Listening for SIGHUP.
+[19/May/2016:10:39:17] ENGINE Listening for SIGTERM.
+[19/May/2016:10:39:17] ENGINE Bus STARTING
+[19/May/2016:10:39:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:10:39:17] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:10:39:17] ENGINE Bus STARTED
+[19/May/2016:10:40:19] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:10:40:19] ENGINE Bus STOPPING
+[19/May/2016:10:40:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:10:40:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:10:40:19] ENGINE Bus STOPPED
+[19/May/2016:10:40:19] ENGINE Bus EXITING
+[19/May/2016:10:40:19] ENGINE Bus EXITED
+[19/May/2016:10:40:19] ENGINE Waiting for child threads to terminate...
+[19/May/2016:10:46:32] ENGINE Listening for SIGUSR1.
+[19/May/2016:10:46:32] ENGINE Listening for SIGHUP.
+[19/May/2016:10:46:32] ENGINE Listening for SIGTERM.
+[19/May/2016:10:46:32] ENGINE Bus STARTING
+[19/May/2016:10:46:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:10:46:32] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:10:46:32] ENGINE Bus STARTED
+[19/May/2016:10:49:14] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:10:49:14] ENGINE Bus STOPPING
+[19/May/2016:10:49:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:10:49:14] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:10:49:14] ENGINE Bus STOPPED
+[19/May/2016:10:49:14] ENGINE Bus EXITING
+[19/May/2016:10:49:14] ENGINE Bus EXITED
+[19/May/2016:10:49:14] ENGINE Waiting for child threads to terminate...
+[19/May/2016:10:49:16] ENGINE Listening for SIGTERM.
+[19/May/2016:10:49:16] ENGINE Listening for SIGUSR1.
+[19/May/2016:10:49:16] ENGINE Listening for SIGHUP.
+[19/May/2016:10:49:16] ENGINE Bus STARTING
+[19/May/2016:10:49:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:10:49:17] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:10:49:17] ENGINE Bus STARTED
+[19/May/2016:10:50:51] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:10:50:51] ENGINE Bus STOPPING
+[19/May/2016:10:50:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:10:50:51] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:10:50:51] ENGINE Bus STOPPED
+[19/May/2016:10:50:51] ENGINE Bus EXITING
+[19/May/2016:10:50:51] ENGINE Bus EXITED
+[19/May/2016:10:50:51] ENGINE Waiting for child threads to terminate...
+[19/May/2016:10:50:53] ENGINE Listening for SIGHUP.
+[19/May/2016:10:50:53] ENGINE Listening for SIGUSR1.
+[19/May/2016:10:50:53] ENGINE Listening for SIGTERM.
+[19/May/2016:10:50:53] ENGINE Bus STARTING
+[19/May/2016:10:50:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:10:50:53] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:10:50:53] ENGINE Bus STARTED
+[19/May/2016:10:51:19] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:10:51:19] ENGINE Bus STOPPING
+[19/May/2016:10:51:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:10:51:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:10:51:19] ENGINE Bus STOPPED
+[19/May/2016:10:51:19] ENGINE Bus EXITING
+[19/May/2016:10:51:19] ENGINE Bus EXITED
+[19/May/2016:10:51:19] ENGINE Waiting for child threads to terminate...
+[19/May/2016:10:51:21] ENGINE Listening for SIGUSR1.
+[19/May/2016:10:51:21] ENGINE Listening for SIGTERM.
+[19/May/2016:10:51:21] ENGINE Listening for SIGHUP.
+[19/May/2016:10:51:21] ENGINE Bus STARTING
+[19/May/2016:10:51:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:10:51:21] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:10:51:21] ENGINE Bus STARTED
+[19/May/2016:10:52:41] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:10:52:41] ENGINE Bus STOPPING
+[19/May/2016:10:52:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:10:52:41] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:10:52:41] ENGINE Bus STOPPED
+[19/May/2016:10:52:41] ENGINE Bus EXITING
+[19/May/2016:10:52:41] ENGINE Bus EXITED
+[19/May/2016:10:52:41] ENGINE Waiting for child threads to terminate...
+[19/May/2016:10:52:42] ENGINE Listening for SIGTERM.
+[19/May/2016:10:52:42] ENGINE Listening for SIGHUP.
+[19/May/2016:10:52:42] ENGINE Listening for SIGUSR1.
+[19/May/2016:10:52:42] ENGINE Bus STARTING
+[19/May/2016:10:52:42] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:10:52:43] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:10:52:43] ENGINE Bus STARTED
+[19/May/2016:11:06:19] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:11:06:19] ENGINE Bus STOPPING
+[19/May/2016:11:06:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:11:06:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:11:06:19] ENGINE Bus STOPPED
+[19/May/2016:11:06:19] ENGINE Bus EXITING
+[19/May/2016:11:06:19] ENGINE Bus EXITED
+[19/May/2016:11:06:19] ENGINE Waiting for child threads to terminate...
+[19/May/2016:11:06:24] ENGINE Listening for SIGHUP.
+[19/May/2016:11:06:24] ENGINE Listening for SIGTERM.
+[19/May/2016:11:06:24] ENGINE Listening for SIGUSR1.
+[19/May/2016:11:06:24] ENGINE Bus STARTING
+[19/May/2016:11:06:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:11:06:25] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:11:06:25] ENGINE Bus STARTED
+[19/May/2016:11:08:41] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:11:08:41] ENGINE Bus STOPPING
+[19/May/2016:11:08:41] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:11:08:41] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:11:08:41] ENGINE Bus STOPPED
+[19/May/2016:11:08:41] ENGINE Bus EXITING
+[19/May/2016:11:08:41] ENGINE Bus EXITED
+[19/May/2016:11:08:41] ENGINE Waiting for child threads to terminate...
+[19/May/2016:11:08:43] ENGINE Listening for SIGHUP.
+[19/May/2016:11:08:43] ENGINE Listening for SIGTERM.
+[19/May/2016:11:08:43] ENGINE Listening for SIGUSR1.
+[19/May/2016:11:08:43] ENGINE Bus STARTING
+[19/May/2016:11:08:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:11:08:43] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:11:08:43] ENGINE Bus STARTED
+[19/May/2016:11:10:42] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:11:10:42] ENGINE Bus STOPPING
+[19/May/2016:11:10:42] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:11:10:42] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:11:10:42] ENGINE Bus STOPPED
+[19/May/2016:11:10:42] ENGINE Bus EXITING
+[19/May/2016:11:10:42] ENGINE Bus EXITED
+[19/May/2016:11:10:42] ENGINE Waiting for child threads to terminate...
+[19/May/2016:11:23:30] ENGINE Listening for SIGUSR1.
+[19/May/2016:11:23:30] ENGINE Listening for SIGTERM.
+[19/May/2016:11:23:30] ENGINE Listening for SIGHUP.
+[19/May/2016:11:23:30] ENGINE Bus STARTING
+[19/May/2016:11:23:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:11:23:30] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:11:23:30] ENGINE Bus STARTED
+[19/May/2016:11:26:12] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:11:26:12] ENGINE Bus STOPPING
+[19/May/2016:11:26:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:11:26:12] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:11:26:12] ENGINE Bus STOPPED
+[19/May/2016:11:26:12] ENGINE Bus EXITING
+[19/May/2016:11:26:12] ENGINE Bus EXITED
+[19/May/2016:11:26:12] ENGINE Waiting for child threads to terminate...
+[19/May/2016:11:26:16] ENGINE Listening for SIGHUP.
+[19/May/2016:11:26:16] ENGINE Listening for SIGUSR1.
+[19/May/2016:11:26:16] ENGINE Listening for SIGTERM.
+[19/May/2016:11:26:16] ENGINE Bus STARTING
+[19/May/2016:11:26:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:11:26:16] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:11:26:16] ENGINE Bus STARTED
+[19/May/2016:11:27:20] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:11:27:20] ENGINE Bus STOPPING
+[19/May/2016:11:27:20] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:11:27:20] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:11:27:20] ENGINE Bus STOPPED
+[19/May/2016:11:27:20] ENGINE Bus EXITING
+[19/May/2016:11:27:20] ENGINE Bus EXITED
+[19/May/2016:11:27:20] ENGINE Waiting for child threads to terminate...
+[19/May/2016:11:27:21] ENGINE Listening for SIGUSR1.
+[19/May/2016:11:27:21] ENGINE Listening for SIGHUP.
+[19/May/2016:11:27:21] ENGINE Listening for SIGTERM.
+[19/May/2016:11:27:21] ENGINE Bus STARTING
+[19/May/2016:11:27:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:11:27:21] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:11:27:21] ENGINE Bus STARTED
+[19/May/2016:11:29:12] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:11:29:12] ENGINE Bus STOPPING
+[19/May/2016:11:29:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:11:29:12] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:11:29:12] ENGINE Bus STOPPED
+[19/May/2016:11:29:12] ENGINE Bus EXITING
+[19/May/2016:11:29:12] ENGINE Bus EXITED
+[19/May/2016:11:29:12] ENGINE Waiting for child threads to terminate...
+[19/May/2016:11:29:20] ENGINE Listening for SIGTERM.
+[19/May/2016:11:29:20] ENGINE Listening for SIGUSR1.
+[19/May/2016:11:29:20] ENGINE Listening for SIGHUP.
+[19/May/2016:11:29:20] ENGINE Bus STARTING
+[19/May/2016:11:29:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:11:29:20] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:11:29:20] ENGINE Bus STARTED
+[19/May/2016:14:11:20] ENGINE Listening for SIGHUP.
+[19/May/2016:14:11:20] ENGINE Listening for SIGUSR1.
+[19/May/2016:14:11:20] ENGINE Listening for SIGTERM.
+[19/May/2016:14:11:20] ENGINE Bus STARTING
+[19/May/2016:14:11:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:14:11:20] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:14:11:20] ENGINE Bus STARTED
+[19/May/2016:14:11:27] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 57, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[19/May/2016:14:11:30] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 57, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[19/May/2016:14:11:37] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 57, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[19/May/2016:14:11:43] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 57, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[19/May/2016:14:11:53] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:14:11:53] ENGINE Bus STOPPING
+[19/May/2016:14:11:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:14:11:53] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:14:11:53] ENGINE Bus STOPPED
+[19/May/2016:14:11:53] ENGINE Bus EXITING
+[19/May/2016:14:11:53] ENGINE Bus EXITED
+[19/May/2016:14:11:53] ENGINE Waiting for child threads to terminate...
+[19/May/2016:16:01:21] ENGINE Listening for SIGTERM.
+[19/May/2016:16:01:21] ENGINE Listening for SIGUSR1.
+[19/May/2016:16:01:21] ENGINE Listening for SIGHUP.
+[19/May/2016:16:01:21] ENGINE Bus STARTING
+[19/May/2016:16:01:21] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:16:01:21] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:16:01:21] ENGINE Bus STARTED
+[19/May/2016:16:01:34] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 57, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[19/May/2016:16:03:32] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/base.py", line 1073, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/default.py", line 584, in _init_compiled
+    param.append(processors[key](compiled_params[key]))
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/dialects/sqlite/base.py", line 607, in process
+    raise TypeError("SQLite DateTime type only accepts Python "
+TypeError: SQLite DateTime type only accepts Python datetime and date objects as input.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 94, in eclipses_add
+    db.create(eclipse, Eclipse)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 43, in create
+    self.session.commit()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/session.py", line 801, in commit
+    self.transaction.commit()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/session.py", line 392, in commit
+    self._prepare_impl()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/session.py", line 372, in _prepare_impl
+    self.session.flush()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/session.py", line 2019, in flush
+    self._flush(objects)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/session.py", line 2137, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/langhelpers.py", line 60, in __exit__
+    compat.reraise(exc_type, exc_value, exc_tb)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/session.py", line 2101, in _flush
+    flush_context.execute()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/unitofwork.py", line 373, in execute
+    rec.execute(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/unitofwork.py", line 532, in execute
+    uow
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/persistence.py", line 174, in save_obj
+    mapper, table, insert)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/persistence.py", line 800, in _emit_insert_statements
+    execute(statement, params)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/base.py", line 914, in execute
+    return meth(self, multiparams, params)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/sql/elements.py", line 323, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/base.py", line 1010, in _execute_clauseelement
+    compiled_sql, distilled_params
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/base.py", line 1078, in _execute_context
+    None, None)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/base.py", line 1341, in _handle_dbapi_exception
+    exc_info
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 183, in reraise
+    raise value.with_traceback(tb)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/base.py", line 1073, in _execute_context
+    context = constructor(dialect, self, conn, *args)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/default.py", line 584, in _init_compiled
+    param.append(processors[key](compiled_params[key]))
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/dialects/sqlite/base.py", line 607, in process
+    raise TypeError("SQLite DateTime type only accepts Python "
+sqlalchemy.exc.StatementError: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input. [SQL: 'INSERT INTO eclipse (libelle, "dateDeb", "dateFin", pays, departement, type) VALUES (?, ?, ?, ?, ?, ?)'] [parameters: [{'departement': '26', 'pays': 'France', 'dateDeb': '17/02/2001', 'type': 'Solaire', 'dateFin': '17/02/2001', 'libelle': 'bla'}]]
+[19/May/2016:16:11:32] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:16:11:32] ENGINE Bus STOPPING
+[19/May/2016:16:11:33] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:16:11:33] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:16:11:33] ENGINE Bus STOPPED
+[19/May/2016:16:11:33] ENGINE Bus EXITING
+[19/May/2016:16:11:33] ENGINE Bus EXITED
+[19/May/2016:16:11:33] ENGINE Waiting for child threads to terminate...
+[19/May/2016:16:11:51] ENGINE Listening for SIGTERM.
+[19/May/2016:16:11:51] ENGINE Listening for SIGUSR1.
+[19/May/2016:16:11:51] ENGINE Listening for SIGHUP.
+[19/May/2016:16:11:51] ENGINE Bus STARTING
+[19/May/2016:16:11:51] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:16:11:51] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:16:11:51] ENGINE Bus STARTED
+[19/May/2016:16:14:14] ENGINE Keyboard Interrupt: shutting down bus
+[19/May/2016:16:14:14] ENGINE Bus STOPPING
+[19/May/2016:16:14:14] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/May/2016:16:14:14] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/May/2016:16:14:14] ENGINE Bus STOPPED
+[19/May/2016:16:14:14] ENGINE Bus EXITING
+[19/May/2016:16:14:14] ENGINE Bus EXITED
+[19/May/2016:16:14:14] ENGINE Waiting for child threads to terminate...
+[19/May/2016:16:14:18] ENGINE Listening for SIGUSR1.
+[19/May/2016:16:14:18] ENGINE Listening for SIGHUP.
+[19/May/2016:16:14:18] ENGINE Listening for SIGTERM.
+[19/May/2016:16:14:18] ENGINE Bus STARTING
+[19/May/2016:16:14:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/May/2016:16:14:18] ENGINE Serving on http://127.0.0.1:8080
+[19/May/2016:16:14:18] ENGINE Bus STARTED
+[19/May/2016:16:16:05] ENGINE Caught signal SIGTERM.
+[20/May/2016:17:28:16] ENGINE Listening for SIGTERM.
+[20/May/2016:17:28:16] ENGINE Listening for SIGUSR1.
+[20/May/2016:17:28:16] ENGINE Listening for SIGHUP.
+[20/May/2016:17:28:16] ENGINE Bus STARTING
+[20/May/2016:17:28:16] ENGINE Started monitor thread '_TimeoutMonitor'.
+[20/May/2016:17:28:16] ENGINE Serving on http://127.0.0.1:8080
+[20/May/2016:17:28:16] ENGINE Bus STARTED
+[20/May/2016:17:28:43] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 59, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[20/May/2016:17:28:56] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 59, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[20/May/2016:17:28:59] HTTP 
+Traceback (most recent call last):
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cprequest.py", line 670, in respond
+    response.body = self.handler()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/lib/encoding.py", line 217, in __call__
+    self.body = self.oldhandler(*args, **kwargs)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/cherrypy/_cpdispatch.py", line 60, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "webServer.py", line 59, in evenements
+    evenements = db.retrieve(Evenement)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Database/Database.py", line 67, in retrieve
+    obj = self.session.query(type).all()
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/query.py", line 2588, in all
+    return list(self)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 86, in instances
+    util.raise_from_cause(err)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 200, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/util/compat.py", line 184, in reraise
+    raise value
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in instances
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 71, in <listcomp>
+    rows = [proc(row) for row in fetch]
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 428, in _instance
+    loaded_instance, populate_existing, populators)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/orm/loading.py", line 486, in _populate_full
+    dict_[key] = getter(row)
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/engine/result.py", line 90, in __getitem__
+    return processor(self._row[index])
+  File "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/py3env/lib/python3.4/site-packages/sqlalchemy/processors.py", line 40, in process
+    "'%s'" % (type_.__name__, value))
+ValueError: Couldn't parse datetime string: '11/08/2017'
+[20/May/2016:17:29:12] ENGINE Keyboard Interrupt: shutting down bus
+[20/May/2016:17:29:12] ENGINE Bus STOPPING
+[20/May/2016:17:29:12] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[20/May/2016:17:29:12] ENGINE Stopped thread '_TimeoutMonitor'.
+[20/May/2016:17:29:12] ENGINE Bus STOPPED
+[20/May/2016:17:29:12] ENGINE Bus EXITING
+[20/May/2016:17:29:12] ENGINE Bus EXITED
+[20/May/2016:17:29:12] ENGINE Waiting for child threads to terminate...

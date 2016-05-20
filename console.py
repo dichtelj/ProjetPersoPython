@@ -1,9 +1,7 @@
 from datetime import datetime
 
 from Database.Database import Database
-from Models.Eclipse import Eclipse
-from Models.Eruption import Eruption
-from Models.Evenement import Evenement
+from Models.models import *
 
 if __name__ == "__main__":
     db = Database()
@@ -14,13 +12,13 @@ if __name__ == "__main__":
         print("2 : Supprimer")
         print("3 : Modifier")
         print("4 : Quitter")
-        action = int(input("Sélectionner l'option désirée"))
+        action = int(input("Sélectionner l'option désirée : "))
         if action == 1:
             print("Création d'un objet")
             print("1 : Evènement")
             print("2 : Eruption")
             print("3 : Eclipse")
-            action = int(input("Choisir l'objet à créer"))
+            action = int(input("Choisir l'objet à créer : "))
             if action == 1:
                 libelle = input("Libelle : ")
                 dateDeb = input("Date de début : ")

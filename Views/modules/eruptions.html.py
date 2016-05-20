@@ -5,7 +5,7 @@ STOP_RENDERING = runtime.STOP_RENDERING
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 10
-_modified_time = 1463050068.4603643
+_modified_time = 1463650160.0090985
 _enable_loop = True
 _template_filename = '/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Views/templates/eruptions.html'
 _template_uri = 'eruptions.html'
@@ -71,6 +71,6 @@ def render_container(context,**pageargs):
 
 """
 __M_BEGIN_METADATA
-{"uri": "eruptions.html", "source_encoding": "utf-8", "line_map": {"64": 25, "65": 25, "66": 28, "35": 2, "40": 34, "46": 3, "59": 22, "72": 66, "53": 3, "54": 19, "55": 20, "56": 21, "57": 21, "58": 22, "27": 0, "60": 23, "61": 23, "62": 24, "63": 24}, "filename": "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Views/templates/eruptions.html"}
+{"line_map": {"64": 25, "65": 25, "66": 28, "35": 2, "40": 34, "46": 3, "59": 22, "72": 66, "53": 3, "54": 19, "55": 20, "56": 21, "57": 21, "58": 22, "27": 0, "60": 23, "61": 23, "62": 24, "63": 24}, "source_encoding": "utf-8", "filename": "/users/lpro/casir/dichtelj/Bureau/ProjetPersoPython/Views/templates/eruptions.html", "uri": "eruptions.html"}
 __M_END_METADATA
 """
